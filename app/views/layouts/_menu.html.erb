@@ -1,0 +1,14 @@
+<h1 class="float-left" id="site-title">Fredy's Football Fun</h1>
+
+<ul class="list-unstyled float-right" id="topnav">
+<li> <%= link_to "Fixtures", root_path %></li>
+<li> <%= link_to "Admin", posts_path %></li>
+<% if admin_signed_in? %>
+<li> <%= button_to "Sign Out", destroy_admin_session_path, method: :delete %></li>
+<% else %>
+<li> <%= link_to "Sign In", new_admin_session_path %></li>
+<% end %>
+</ul>
+
+
+

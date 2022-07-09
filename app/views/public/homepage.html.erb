@@ -1,0 +1,16 @@
+<h1>Welcome</h1>
+
+<% content_for :page_title, "Results" %>
+
+<div class="row"> 
+<div class="col-12 bg-light"> 
+<p class="h4 text-center pt-3 pb-3">Latest Fixtures and Results</p>
+
+<% @posts.each do |post| %>
+    <%= render partial: "posts/fixtures", locals: { post: post } %>
+    <% end %>
+
+</div>
+</div>
+
+

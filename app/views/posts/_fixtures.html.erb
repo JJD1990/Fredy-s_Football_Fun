@@ -1,0 +1,23 @@
+
+
+<table class="table table-light text-center">
+<thead class="thead-light">
+  <tr>
+    <th scope="col">Date</th>
+    <th scope="col">Team One</th>
+    <th scope="col">Score One</th>
+    <th scope="col">Team Two</th>
+    <th scope="col">Score Two</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row"><%= post.created_at.time.to_date %></th>
+    <td><%= link_to post.home, post_path(post) %></td>
+    <td><%=post.homescr %></td>
+    <td><%= link_to post.away, post_path(post) %></td>
+    <td><%=post.awayscr %></td>
+</tr>
+</tbody>
+</table>
+

@@ -1,0 +1,32 @@
+body {
+    background-image: url("pitch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.page-nav{
+    background: #ddd;
+    margin-bottom: 20px;
+}
+
+#topnav{
+    margin-top: 10px;
+}
+
+#topnav li{
+    display: inline;
+    padding: 5px 8px;
+}
+
+#site-title {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #000;
+}
+
+#footer {
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+}
