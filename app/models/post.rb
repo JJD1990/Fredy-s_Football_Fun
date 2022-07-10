@@ -1,5 +1,5 @@
 class Post < ApplicationRecord
-    validates :home, presence: true, uniqueness: true
+    validates :home, presence: true
     validates :away, presence: true
     validates :homescr, presence: true, numericality: {only_integer: true}
     validates :awayscr, presence: true, numericality: {only_integer: true}
