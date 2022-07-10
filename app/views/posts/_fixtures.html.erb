@@ -2,21 +2,21 @@
 
 <table class="table table-light text-center">
 <thead class="thead-light">
+<tr scope="row"><%= post.created_at.time.to_date %></tr>
+
   <tr>
-    <th scope="col">Date</th>
     <th scope="col">Home Team</th>
     <th scope="col">Home Score</th>
-    <th scope="col">Away Team</th>
     <th scope="col">Away Score</th>
+    <th scope="col">Away Team</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <th scope="row"><%= post.created_at.time.to_date %></th>
     <td><%= link_to post.home, post_path(post) %></td>
     <td><%=post.homescr %></td>
-    <td><%= link_to post.away, post_path(post) %></td>
     <td><%=post.awayscr %></td>
+    <td><%= link_to post.away, post_path(post) %></td>
 </tr>
 </tbody>
 </table>

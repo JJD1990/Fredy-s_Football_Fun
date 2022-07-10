@@ -1,14 +1,13 @@
-<p style="color: green"><%= notice %></p>
 
-<h1 class="text-black bg-white pb-3 text-center">Enter your scores</h1>
 <div class="bg-light" id="posts">
+<h1 class="text-black bg-light pb-3 text-center">Enter your scores</h1>
   <% @posts.each do |post| %>
     <%= render post %>
     <p class="ml-3">
       <%= link_to "Show this post", post %>
     </p>
   <% end %>
-</div>
+  </div>
 <p class="bg-light w-25 text-center">
 <%= link_to "New post", new_post_path %>
 </p>
