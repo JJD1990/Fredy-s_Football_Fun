@@ -40,7 +40,8 @@ I've tried to keep the style is simple but functional. I am relativley happy wit
 
 Areas to build on would be- 
 Implementing Action Cable
+implement smtp and mailer actions so that the password reset and account confirmation emails actually send. 
 Making the UI responsive more appealing to look at
 Gaining a much better understanding of Ruby on Rails in general
-Being confident with Ruby Version Managers (for this i used chruby)
+Being confident with Ruby Version Managers (for this I used chruby)
 
