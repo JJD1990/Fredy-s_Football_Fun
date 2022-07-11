@@ -1,5 +1,7 @@
 # README
 
+You can view the application here - https://jjd-football-scoreboard.herokuapp.com/
+
 * Ruby version - 
 I am using ruby 2.7.6-p219 & rails 6.1.6
 
